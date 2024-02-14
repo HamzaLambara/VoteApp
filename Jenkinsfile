@@ -27,8 +27,8 @@ pipeline{
                 dir('BackendofADEIVotechain'){
                     sh "docker build -t my-backend-2 ."
                     sh "docker login -u hamzalambara -p plazma235"
-                    sh "docker pull hadryyassine/adeivotechain-1:my-backend-2"
-                    sh "docker push hadryyassine/adeivotechain-1:my-backend-2"
+                    sh "docker pull hamzalambara/adeivotechain-1:my-backend-2"
+                    sh "docker push hamzalambara/adeivotechain-1:my-backend-2"
                 }
             }
             
