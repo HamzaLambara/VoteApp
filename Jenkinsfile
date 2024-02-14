@@ -3,7 +3,7 @@ pipeline{
     stages {
         stage('Clone the project'){
             steps{
-                git branch: 'main', url: 'https://github.com/hadryyassine/Blockchain_voting_system_ADEI.git'
+                git branch: 'main', url: 'https://github.com/HamzaLambara/VoteApp.git'
             }
         }
         stage('Build'){
